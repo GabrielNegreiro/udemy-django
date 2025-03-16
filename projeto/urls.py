@@ -20,7 +20,7 @@ from django.urls import path
 
 
 def my_view(request):
-    return HttpResponse("Hello, world!")
+    return HttpResponse("ola tudo bem")
 
 urlpatterns = [
     path('admin/', admin.site.urls),
